@@ -1,0 +1,444 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid purple; */
+}
+
+
+
+#nav{
+     background-color:rgba(128, 128, 128, 0.249); 
+
+}
+#trip{
+    padding: 800px 80px 800px 20px;
+    margin-right: 800px;
+    margin-top: 100px;
+    /* border: solid; */
+    font-size: 25px;
+}
+.two{
+    padding: 20px 20px;
+    font-size: 18px;
+    margin-right: 30px;
+}
+#login{
+    color: orange;
+    font-family: system-ui, -apple-system, Bl
+    inkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+#but{
+    padding: 12px 22px;
+    border-radius: 4px;
+    width:110px;
+    background-color: orange;
+    border: none;
+    color:white;
+    font-size:20px ;
+}
+/* div{
+    /* border:solid; 
+    background-color:#F8F9FA;*/
+
+#background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 8px;
+    border: solid black;
+}
+.container{
+    color:white;
+    margin-top: 100px;
+    /* border: solid ; */
+}
+#sec1{
+    margin:200px 300px 300px 600px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h1{
+    
+    font-size: 40px;
+    /* margin-top: 100px; */
+    /* border: solid; 
+    padding-top: 200px;*/
+} 
+
+#p1{
+   margin-left: -100px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: -0px;
+    /* padding-left: -20px; */
+    /* border: solid; 
+    margin-top: 3px;*/
+    
+}
+#but2{
+    
+        width: 160%;
+        height: 50px;
+        padding: 16px;
+        margin-left: -330px;
+        margin-top: 20px;
+        border-radius: 6px;
+        color: black;
+        
+}
+.card1{
+    /* border:solid green; */
+    width: 306px;
+    height: 459px;
+    position: relative;
+    margin-bottom: 22px;
+    margin-right: 22px;
+    
+}
+.imgss{
+    width: 100%;
+    height: 459px;
+}
+#homeimage{
+    /* border: solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.homepara{
+    /* border: solid rgb(81, 0, 128);  */
+    position: absolute;
+    /* top: 10px; */
+    /* left: 5px;
+    bottom: 20px;  */
+    color: white;
+    margin-top: 140px;
+    margin-left: -230px;
+    font-size: 20px;
+
+    /* height: 60px;
+    position: relative;
+    right: 230px;
+   top: 380px;
+   background-color: transparent;
+   color: white; */
+}
+#city{
+    margin-top: 363px;
+}
+#descri{
+    margin-top: 369px;
+    font-size: 15px;
+   
+}
+.card1:hover{
+    transform:scale(1.05);
+    filter:brightness(50%)
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(128, 128, 128, 0.249);
+    /* border: solid red; */
+    margin-top: 100px;
+    margin-bottom: -100px
+} 
+/* #parent{
+    /* width: 100%;
+    height: 1000px; */
+    /* border:solid red; 
+
+#cardss{
+    margin-left: 120px;
+    margin-right: -120px;
+    /* se 
+    display: flex;
+    flex-wrap: wrap; 
+    /* justify-content: space-evenly; 
+    margin-top: 110px;
+    width: 1350px;
+    height: 500px;
+
+}
+#cardsss{
+    margin-left: 120px;
+    /* margin-right: -120px; */
+    /* border: solid purple; 
+    display: flex;
+    flex-wrap: wrap; 
+    /* justify-content: space-evenly; 
+    margin-top: 110px;
+    width: 1350px;
+    height: 500px;
+    margin-top: -10px;
+
+}
+#card6{
+    /* border: solid gold; 
+    margin-left: -125px;
+}
+#card7{
+    /* border: solid gold; 
+    margin-left: -110px;
+    
+}
+#card8{
+    /* border: solid gold; 
+    margin-left: -130px;
+    
+   
+    
+}*/
+/* .card1{
+    width: 306px;
+    height: 463px;
+    border:solid red; 
+    /* margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 12px;
+    margin-top: -4px;
+    position: relative;
+    margin-right: 20px;*/
+
+
+/* .card2{
+    width: 306px;
+    height: 463px;
+    border:solid green; 
+    /* margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 12px; */
+    /* margin-top: -4px; */
+  
+    /* position: relative; */
+
+
+img{
+    width: 306px;
+    height: 463px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+   
+}
+
+/*.para1{ 
+    /* margin: auto; */
+    /* padding-left: 20px;
+    padding-top: 120px; 
+    position: relative;
+    /* right: 10px; */
+   /* top: 1100px; */
+    /* left: 50px;  */
+    /* z-index: 1;  */
+    /* top:400px;  */
+    /* left: 80px; 
+    top:-80px;
+    left: 80px;
+    color: white;
+    background-color: transparent;
+    /* border:solid red; 
+   
+
+.para{
+    /* border: solid green; 
+    height: 60px;
+    position: relative;
+    right: 230px;
+   top: 380px;
+   background-color: transparent;
+   color: white;
+}
+#para8{
+    border: solid green;
+    height: 60px;
+    position: relative;
+    right: 230px;
+   top: 80px;
+   background-color: transparent;
+   color: white;
+   /* margin-top: -100px; */
+   /* z-index: 1px;
+}
+
+h5{
+    font-size: 20px;
+    /* position: relative; */
+    /* top: 10px;
+    left:10px;
+    right: ; 
+}
+.card1:hover{
+    transform:scale(1.05);
+    filter:brightness(50%)
+}
+/* #parameter{
+    width: 100%;
+    height: 80px;
+    border: solid red;
+    margin-top: 110px;
+   
+}
+#card_rout{
+    width: 100%;
+    height: 80px;
+    border: solid blue;
+    margin-top: 70px;
+}
+#bngimg1{
+    width: 305px;
+    height: 350px;
+}
+#bgimg{
+    width:100%;
+    height: 229px;
+}
+#bangloreimg{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    height: 500px;
+   
+   
+} 
+#innerdiv{
+    width: 90%;
+    height: 350px;
+    border:solid red; 
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 90px; */
+    #image{
+        /* border: solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        
+    
+       
+    }
+
+.imgdiv1{
+    width:305px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.276) ; 
+    margin-top: 30px;
+   border-radius: 8px;
+   position:relative;
+   margin-right: 20px;
+   
+   
+}
+
+.imgs{
+    width:100%;
+    height: 250px;
+}
+.content{
+    margin-left: 120px;
+  /* border: solid; */
+  padding-right: 50px;
+}
+/*
+#lastimg{
+    margin-left: -140px;
+    
+}*/
+#paragraph{
+    margin-top: 90px;
+    
+}
+#bgh1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.833);
+}
+#bgpara{
+    font-size: 25px;
+}
+#inputdiv{
+    /* border:solid red; */
+    padding: 25px 3px;
+    width: 1270px;
+    
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: transparent;
+    border-right: transparent;
+    
+}
+.cardpara{
+    margin-left: 240px;
+    margin-top: -19px;
+}
+.contentinput{
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+#cat{
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    padding: 7px 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 8px 0px 0px 8px;
+   
+
+}
+/*
+#inputdiv{
+    /* border:solid red;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.button1{
+    padding: 10px 10px 10px 35px;
+    background-color: orange;
+    margin-left: 220px;
+   position: absolute;
+   top: 10px;
+   border-radius: 8px 0px 0px 8px;
+   
+}*/
+#lastt{
+    width: 822px;
+    height: 1080px;
+    margin-left: 150px;
+    margin-top: 100px;
+    /* border: solid 1px rgba(0, 0, 0, 0.322); */
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 50px;
+}
+.imgg{
+    width: 100%;
+    margin-top: 80px;
+}
+#flow{
+    overflow: hidden;
+    height: 440px;
+}
+#lp{
+    color: rgba(0, 0, 0, 0.294);
+    font-size: 22px;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(128, 128, 128, 0.301);
+    /* border: solid red; 
+    margin-top: 100px;
+    margin-bottom: -100px;*/
+} 
