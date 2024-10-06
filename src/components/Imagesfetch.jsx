@@ -77,7 +77,7 @@ export default class Imagefetch extends React.Component{
         {this.state.data.map((pa,y)=>{
             return(
                 <>
-                
+             
              
                 <div className="card1" key={y}>
                 <Link to={"/"+pa.id}>
