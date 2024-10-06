@@ -21,22 +21,22 @@ export default class Newyark extends React.Component{
     return(
         <>
         <div id="image">
-        {this.state.data.map(pa=>{
+        {this.state.data.map((pa,y)=>{
             return(
-                <>
-                <div class="imgdiv1">
+                <div key={y}>
+                <div className="imgdiv1">
                 <Link to={"/"+pa.name}>
-                <img src={pa.image} alt="" class="imgs" />
+                <img src={pa.image} alt="" className="imgs" />
                 </Link>
-                <div class="para1">
+                <div className="para1">
                 <h3>{pa.name}</h3>
-                <p class="cardpara">R.{pa.costPerHead}</p>
+                <p className="cardpara">R.{pa.costPerHead}</p>
                 <h3>Duration</h3>
-                <p class="cardpara">{pa.duration}</p>
+                <p className="cardpara">{pa.duration}</p>
                 </div>
                 <button id="cat">{pa.category}</button>
                 </div>
-                </>
+                </div>
             )
              
         })}

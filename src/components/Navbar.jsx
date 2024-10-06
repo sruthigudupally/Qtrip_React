@@ -6,8 +6,8 @@ export default class Navbar extends React.Component{
             <>
             <div id="nav">
                 <span id="trip">QTrip</span>
-                <span class="two">Home</span>
-                <span class="two">Reservations</span>
+                <span className="two">Home</span>
+                <span className="two">Reservations</span>
                 <span id="login">Login here</span>
                 <button id="but">Register</button>
 

@@ -5,20 +5,20 @@ export default class Content extends React.Component{
         return(
             <>
             <div id="paragraph">
-            <h1 id="bgh1" class="content">Explore all adventures</h1>
+            <h1 id="bgh1" className="content">Explore all adventures</h1>
             <br />
-            <p class="content" id="bgpara">Here's a list of places that you can explore in city</p>
+            <p className="content" id="bgpara">Here's a list of places that you can explore in city</p>
             </div>
             <br />
             {/* <hr  class="content"/> */}
             <br />
             
-            <section id="inputdiv" class="content">
-            <span  class="content1">Filter</span><span><input type="text" placeholder='filterbyDuration' class="contentinput"/> </span>
+            <section id="inputdiv" className="content">
+            <span  className="content1">Filter</span><span><input type="text" placeholder='filterbyDuration' className="contentinput"/> </span>
             <span>Clear </span>
-            <input type="text" placeholder='add Category' class="contentinput"/>
+            <input type="text" placeholder='add Category' className="contentinput"/>
             <span>Clear </span>
-          <input type="text" placeholder='search adventure'  class="contentinput"/>
+          <input type="text" placeholder='search adventure'  className="contentinput"/>
           <span>Clear </span>
           
           </section>

@@ -138,12 +138,12 @@ export default function BackgroundImage() {
       <>
         <div id="background">
            <section id="sec1">
-            <h1 class="container" id="h1">Welcome to QTrip</h1>
-            <p  class="container" id="p1">Explore the world with fantastic places to venture around</p>
+            <h1 className="container" id="h1">Welcome to QTrip</h1>
+            <p  className="container" id="p1">Explore the world with fantastic places to venture around</p>
             <input
                 onChange={change}
                 type="search"
-                class="container" id="but2"
+                className="container" id="but2"
                 placeholder="Search a City"
                 value={search} />
             </section>

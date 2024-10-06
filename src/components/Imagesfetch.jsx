@@ -74,24 +74,25 @@ export default class Imagefetch extends React.Component{
         <>
         <div id="homeimage">
         
-        {this.state.data.map(pa=>{
+        {this.state.data.map((pa,y)=>{
             return(
                 <>
+                
              
-                <div class="card1">
+                <div className="card1" key={y}>
                 <Link to={"/"+pa.id}>
-                <img src={pa.image} alt="" class="imgss" />
+                <img src={pa.image} alt="" className="imgss" />
                 </Link> 
                 </div>
         
                
                 <div >
-                     <h3 class="homepara" id="city">{pa.city.toUpperCase()}</h3>
+                     <h3 className="homepara" id="city">{pa.city.toUpperCase()}</h3>
                      <br />
-                     <h3 class="homepara" id="descri">{pa.description.toUpperCase()}</h3>
+                     <h3 className="homepara" id="descri">{pa.description.toUpperCase()}</h3>
                 
                 </div>
-               
+              
                
                 </>
             )
