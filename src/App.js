@@ -1,4 +1,5 @@
 import React from 'react'
+import Error from './pages/Errorpage.jsx';
 import Homepage from "./components/Homepage.jsx";
 import Banglorepage from  "./pages/Banglorepage.jsx"
 import Niaboytown from './pages/Niaboytown.jsx'
@@ -22,6 +23,7 @@ export default function App() {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Homepage/>}/>
+         <Route path="*" element={<Error/>}/>
         <Route path="/bengaluru" element={<Banglorepage/>}/>
         <Route path="/Niaboytown"   element={<Niaboytown/>}/>
 
@@ -52,6 +54,7 @@ export default function App() {
 
 
     </Routes>
+   
     </BrowserRouter>
   );
 }
